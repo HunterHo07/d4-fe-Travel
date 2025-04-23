@@ -2,14 +2,14 @@
   "name": "jebsen-cruise-travel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/TravelCruiseAgencyWebsite2",
+  "homepage": "https://hunterho07.github.io/d4-fe-Travel",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export",
-    "deploy": "bun run build && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "bun run build && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
     "@types/react-datepicker": "^6.2.0",
