@@ -61,15 +61,19 @@ Jebsen Cruise Travel is Malaysia's leading cruise specialist since 1979, represe
 
 2. Update the `homepage` field in `package.json` with your GitHub username
    ```json
-   "homepage": "https://yourusername.github.io/TravelCruiseAgencyWebsite2"
+   "homepage": "https://hunterho07.github.io/d4-fe-Travel"
    ```
 
-3. Deploy the application
+3. Push your changes to GitHub
    ```bash
-   bun run deploy
+   git add .
+   git commit -m "Your commit message"
+   git push origin main
    ```
 
-4. Your site will be available at `https://yourusername.github.io/TravelCruiseAgencyWebsite2`
+4. The GitHub Actions workflow will automatically deploy your site
+
+5. Your site will be available at `https://hunterho07.github.io/d4-fe-Travel`
 
 ## 📝 License
 
