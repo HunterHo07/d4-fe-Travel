@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "bun run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out"
+    "predeploy": "next build",
+    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@types/react-datepicker": "^6.2.0",
