@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',  // Enable static exports for GitHub Pages
-  basePath: process.env.NODE_ENV === 'production' ? '/d4-fe-Travel' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/d4-fe-Travel/' : '',
+  basePath: '/d4-fe-Travel',
+  assetPrefix: '/d4-fe-Travel/',
   images: {
     domains: [
       'images.unsplash.com',
