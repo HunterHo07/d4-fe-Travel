@@ -114,7 +114,7 @@ const About = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <h3 className="text-2xl font-bold text-gray-800 mb-6">
-              Malaysia's Largest Cruise Consolidator Since 1979
+              Malaysia&apos;s Largest Cruise Consolidator Since 1979
             </h3>
 
             <p className="text-gray-800 mb-6 text-base">
@@ -209,7 +209,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
             <p className="text-blue-100 mb-4">
-              To impart our years of professional experience and expertise into custom packages tailored to your individual travel wants, needs, and fantasies. As our motto states: <strong>WE'LL TAKE YOU ANYWHERE YOU WANT TO GO!</strong>
+              To impart our years of professional experience and expertise into custom packages tailored to your individual travel wants, needs, and fantasies. As our motto states: <strong>WE&apos;LL TAKE YOU ANYWHERE YOU WANT TO GO!</strong>
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}

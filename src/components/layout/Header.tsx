@@ -48,7 +48,7 @@ const Header = () => {
               </motion.div>
               <div>
                 <h1 className="text-white font-bold text-xl">Jebsen Cruise Travel</h1>
-                <p className="text-blue-200 text-xs">Malaysia's Premier Cruise Specialist Since 1979</p>
+                <p className="text-blue-200 text-xs">Malaysia&apos;s Premier Cruise Specialist Since 1979</p>
               </div>
             </div>
           </Link>
