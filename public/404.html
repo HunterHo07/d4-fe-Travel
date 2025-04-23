@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JEBSEN TRAVEL & Tours | Redirecting...</title>
+  <script>
+    // Handle GitHub Pages SPA routing
+    (function() {
+      // Get the current path excluding the repo name
+      var path = window.location.pathname;
+      var repo = '/d4-fe-Travel';
+      
+      // Check if we're on the GitHub Pages domain and not at the base path
+      if (path.indexOf(repo) === 0) {
+        path = path.slice(repo.length);
+      }
+      
+      // If we have a path (not just the root), handle it
+      if (path !== '/' && path !== '') {
+        // Redirect to the correct URL with basePath included
+        window.location.href = repo + '/';
+      } else if (window.location.pathname === repo + '/') {
+        // We're already at the root, so just stay here
+        console.log('Already at the root page, no redirect needed');
+      } else {
+        // Fallback redirect to the homepage
+        window.location.href = repo + '/';
+      }
+    })();
+  </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: #333;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 90%;
+    }
+    h1 {
+      margin-top: 0;
+      color: #2c5282;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: #3182ce;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .loader {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #3182ce;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 1s linear infinite;
+      margin: 1.5rem auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Redirecting to JEBSEN TRAVEL & Tours</h1>
+    <div class="loader"></div>
+    <p>If you are not redirected automatically, <a href="https://hunterho07.github.io/d4-fe-Travel/">click here</a> to go to the homepage.</p>
+  </div>
+</body>
+</html>
