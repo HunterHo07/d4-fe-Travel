@@ -44,11 +44,11 @@ const Header = () => {
                 whileHover={{ rotate: 10, scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <span className="text-white font-bold text-lg">JCT</span>
+                <span className="text-white font-bold text-lg">JT</span>
               </motion.div>
               <div>
-                <h1 className="text-white font-bold text-xl">Jebsen Cruise Travel</h1>
-                <p className="text-blue-200 text-xs">Malaysia&apos;s Premier Cruise Specialist Since 1979</p>
+                <h1 className="text-white font-bold text-xl">JEBSEN TRAVEL & Tours</h1>
+                <p className="text-blue-200 text-xs">Malaysia&apos;s Largest Cruise Consolidator Since 1979</p>
               </div>
             </div>
           </Link>
@@ -120,10 +120,10 @@ const Header = () => {
       >
         <div className="container mx-auto px-4">
           <div className="flex justify-end space-x-4 text-sm text-blue-100">
-            <a href="tel:+1234567890" className="flex items-center hover:text-white">
-              <FaPhone className="mr-1" size={12} /> +1 (234) 567-890
+            <a href="tel:+60327310579" className="flex items-center hover:text-white">
+              <FaPhone className="mr-1" size={12} /> +603 2731 0579
             </a>
-            <a href="https://wa.me/1234567890" className="flex items-center hover:text-white">
+            <a href="https://wa.me/60327310579" className="flex items-center hover:text-white">
               <FaWhatsapp className="mr-1" size={12} /> WhatsApp
             </a>
             <a href="mailto:cruise@jebsen.com.my" className="flex items-center hover:text-white">

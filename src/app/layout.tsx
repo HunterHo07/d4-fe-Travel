@@ -11,9 +11,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Jebsen Cruise Travel | Malaysia's Premier Cruise Specialist Since 1979",
-  description: "Representing over 40 international cruise lines, Jebsen Cruise Travel is Malaysia's largest cruise consolidator with 40+ years of excellence. Book your dream cruise today!",
-  keywords: "cruise, luxury cruise, cruise agency, jebsen cruise travel, cruise booking, travel agency, malaysia cruise, asia cruise, cruise vacation"
+  title: "JEBSEN TRAVEL & Tours | Malaysia's Largest Cruise Consolidator Since 1979",
+  description: "With over 40 years of cruise travel experience, JEBSEN TRAVEL has become the Largest Cruise Consolidator in Asia with access to over 40 major international cruise lines.",
+  keywords: "jebsen travel, jebsen tours, cruise, luxury cruise, cruise agency, cruise booking, travel agency, malaysia cruise, asia cruise, cruise vacation, business travel"
 };
 
 export default function RootLayout({

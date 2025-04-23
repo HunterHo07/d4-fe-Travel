@@ -20,12 +20,12 @@ const Footer = () => {
           <motion.div variants={slideIn('up')}>
             <div className="flex items-center mb-4">
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 mb-3">
-                <span className="text-white font-bold text-lg">JCT</span>
+                <span className="text-white font-bold text-lg">JT</span>
               </div>
-              <h3 className="text-xl font-bold">Jebsen Cruise Travel</h3>
+              <h3 className="text-xl font-bold">JEBSEN TRAVEL & Tours</h3>
             </div>
             <p className="text-blue-200 mb-4">
-              Providing exceptional cruise experiences for over 20 years. Setting sail to dream destinations with unmatched service and luxury.
+              Founded in 1979, JEBSEN TRAVEL has become the Largest Cruise Consolidator in Asia with access to over 40 major international cruise lines.
             </p>
             <div className="flex space-x-3">
               {[FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterest].map((Icon, index) => (
@@ -67,11 +67,11 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="text-blue-400 mt-1 mr-2 flex-shrink-0" />
-                <span className="text-blue-200">123 Harbor View, Marina Bay, Miami, FL 33132, USA</span>
+                <span className="text-blue-200">Suite 22.01, Level 22, Menara Citibank, 165, Jalan Ampang, 50450 Kuala Lumpur, Malaysia</span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="text-blue-400 mr-2 flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-blue-200 hover:text-white">+1 (234) 567-890</a>
+                <a href="tel:+60327310579" className="text-blue-200 hover:text-white">+603 2731 0579</a>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="text-blue-400 mr-2 flex-shrink-0" />
@@ -106,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-blue-800 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-blue-300 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} Jebsen Cruise Travel. All rights reserved.
+              &copy; {currentYear} JEBSEN TRAVEL & Tours Services Sdn. Bhd. All Rights Reserved.
             </p>
             <div className="flex space-x-4 text-sm text-blue-300">
               <Link href="/privacy-policy">
