@@ -2,7 +2,7 @@
   "name": "jebsen-travel-tours",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://gold_.github.io/TravelCruiseAgencyWebsite2",
+  "homepage": "https://hunterho07.github.io/d4-fe-Travel",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
