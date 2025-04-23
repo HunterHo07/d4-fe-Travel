@@ -16,11 +16,11 @@ const icon = L.icon({
 
 const MapComponents = () => {
   console.log('🚀 Map component rendered');
-  
+
   return (
-    <MapContainer 
-      center={[25.761681, -80.191788]} 
-      zoom={14} 
+    <MapContainer
+      center={[3.1579, 101.7120]}
+      zoom={16}
       style={{ height: '100%', width: '100%' }}
       scrollWheelZoom={false}
     >
@@ -28,10 +28,12 @@ const MapComponents = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
-      <Marker position={[25.761681, -80.191788]} icon={icon}>
+      <Marker position={[3.1579, 101.7120]} icon={icon}>
         <Popup>
-          <div className="font-semibold">OceanVoyages</div>
-          <div className="text-sm">123 Harbor View, Marina Bay, Miami</div>
+          <div className="font-semibold">Jebsen Travel & Tours</div>
+          <div className="text-sm">Suite 22.01, Level 22, Menara Citibank</div>
+          <div className="text-sm">165, Jalan Ampang</div>
+          <div className="text-sm">50450 Kuala Lumpur, Malaysia</div>
         </Popup>
       </Marker>
     </MapContainer>

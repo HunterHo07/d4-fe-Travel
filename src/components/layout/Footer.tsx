@@ -5,11 +5,11 @@ import { slideIn, staggerContainer } from '../animations/useAnimations';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-blue-900 text-white pt-16 pb-4">
       <div className="container mx-auto px-4">
-        <motion.div 
+        <motion.div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12"
           variants={staggerContainer(0.1, 0.1)}
           initial="hidden"
@@ -20,9 +20,9 @@ const Footer = () => {
           <motion.div variants={slideIn('up')}>
             <div className="flex items-center mb-4">
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-blue-500 mb-3">
-                <span className="text-white font-bold text-lg">OV</span>
+                <span className="text-white font-bold text-lg">JCT</span>
               </div>
-              <h3 className="text-xl font-bold">OceanVoyages</h3>
+              <h3 className="text-xl font-bold">Jebsen Cruise Travel</h3>
             </div>
             <p className="text-blue-200 mb-4">
               Providing exceptional cruise experiences for over 20 years. Setting sail to dream destinations with unmatched service and luxury.
@@ -49,7 +49,7 @@ const Footer = () => {
               {['Our Cruises', 'Destinations', 'About Us', 'Testimonials', 'Contact Us', 'FAQ'].map((item, index) => (
                 <li key={index}>
                   <Link href={`/#${item.toLowerCase().replace(/\s+/g, '-')}`}>
-                    <motion.span 
+                    <motion.span
                       className="text-blue-200 hover:text-white transition-colors inline-block"
                       whileHover={{ x: 3 }}
                     >
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="text-blue-400 mr-2 flex-shrink-0" />
-                <a href="mailto:info@oceanvoyages.com" className="text-blue-200 hover:text-white">info@oceanvoyages.com</a>
+                <a href="mailto:cruise@jebsen.com.my" className="text-blue-200 hover:text-white">cruise@jebsen.com.my</a>
               </li>
             </ul>
           </motion.div>
@@ -106,7 +106,7 @@ const Footer = () => {
         <div className="border-t border-blue-800 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-blue-300 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} OceanVoyages. All rights reserved.
+              &copy; {currentYear} Jebsen Cruise Travel. All rights reserved.
             </p>
             <div className="flex space-x-4 text-sm text-blue-300">
               <Link href="/privacy-policy">

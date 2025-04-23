@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jebsen Cruise Travel - Malaysia's Premier Cruise Specialist
 
-## Getting Started
+![Jebsen Cruise Travel](https://images.unsplash.com/photo-1548574505-5e239809ee19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80)
 
-First, run the development server:
+## 🚢 About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Jebsen Cruise Travel is Malaysia's leading cruise specialist since 1979, representing over 40 international cruise lines. With more than four decades of excellence in the cruise industry, we bring unparalleled expertise to every voyage we plan.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Comprehensive Cruise Listings**: Browse through a wide selection of cruise packages from top cruise lines
+- **Destination Guides**: Detailed information about popular cruise destinations
+- **Booking System**: Easy-to-use booking interface for cruise reservations
+- **Responsive Design**: Fully responsive website that works on all devices
+- **Interactive Maps**: View cruise ports and destinations with interactive maps
+- **Testimonials**: Read reviews from satisfied customers
+- **Contact Form**: Get in touch with our cruise specialists
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used
 
-## Learn More
+- **Frontend**: React, TailwindCSS, Framer Motion
+- **Maps**: Leaflet.js
+- **Forms**: React Hook Form
+- **Icons**: React Icons
+- **Deployment**: GitHub Pages
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Bun](https://bun.sh/) (JavaScript runtime & package manager)
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/TravelCruiseAgencyWebsite2.git
+   cd TravelCruiseAgencyWebsite2
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies
+   ```bash
+   bun install
+   ```
+
+3. Start the development server
+   ```bash
+   bun dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📦 Deployment
+
+### Deploying to GitHub Pages
+
+1. Install the gh-pages package if not already installed
+   ```bash
+   bun add gh-pages --dev
+   ```
+
+2. Update the `homepage` field in `package.json` with your GitHub username
+   ```json
+   "homepage": "https://yourusername.github.io/TravelCruiseAgencyWebsite2"
+   ```
+
+3. Deploy the application
+   ```bash
+   bun run deploy
+   ```
+
+4. Your site will be available at `https://yourusername.github.io/TravelCruiseAgencyWebsite2`
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📞 Contact
+
+For inquiries, please contact us at:
+
+- **Email**: cruise@jebsen.com.my
+- **Phone**: +603 2731 0579
+- **WhatsApp**: +603 2731 0579
+
+---
+
+&copy; 2024 Jebsen Cruise Travel. All rights reserved.

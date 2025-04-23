@@ -9,8 +9,8 @@ const About = () => {
   const features = [
     {
       icon: FaAnchor,
-      title: 'Over 20 Years Experience',
-      description: 'With two decades of excellence in the cruise industry, we bring unparalleled expertise to every voyage we plan.'
+      title: 'Over 40 Years Experience',
+      description: 'With more than four decades of excellence in the cruise industry since 1979, we bring unparalleled expertise to every voyage we plan.'
     },
     {
       icon: FaLifeRing,
@@ -44,13 +44,13 @@ const About = () => {
               ABOUT US
             </span>
           </motion.div>
-          <motion.h2 
+          <motion.h2
             variants={fadeIn('up', 0.1)}
             className="text-3xl md:text-4xl font-bold text-blue-800 mb-4"
           >
             Malaysia&apos;s Leading Cruise Specialist Since 1979
           </motion.h2>
-          <motion.p 
+          <motion.p
             variants={fadeIn('up', 0.2)}
             className="max-w-2xl mx-auto text-gray-700 font-bold text-lg"
           >
@@ -77,7 +77,7 @@ const About = () => {
                 className="w-full h-auto object-cover rounded-xl"
                 priority
               />
-              
+
               {/* Decorative elements */}
               <motion.div
                 className="absolute top-10 -left-6 bg-blue-500 text-white p-4 rounded-lg shadow-lg z-10 flex items-center"
@@ -87,9 +87,9 @@ const About = () => {
                 transition={{ delay: 0.3 }}
               >
                 <FaAnchor className="mr-2" />
-                <span className="font-semibold">Est. 2005</span>
+                <span className="font-semibold">Est. 1979</span>
               </motion.div>
-              
+
               <motion.div
                 className="absolute bottom-10 -right-6 bg-white p-4 rounded-lg shadow-lg z-10"
                 initial={{ opacity: 0, x: 30 }}
@@ -101,7 +101,7 @@ const About = () => {
                 <div className="text-gray-600 text-sm">Happy Customers</div>
               </motion.div>
             </div>
-            
+
             {/* Background pattern */}
             <div className="absolute -bottom-8 -left-8 w-full h-full bg-blue-100 rounded-2xl -z-10"></div>
           </motion.div>
@@ -114,26 +114,20 @@ const About = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <h3 className="text-2xl font-bold text-gray-800 mb-6">
-              We Create Memorable Ocean Adventures Since 2005
+              Malaysia's Largest Cruise Consolidator Since 1979
             </h3>
-            
+
             <p className="text-gray-800 mb-6 text-base">
-              Premier international cruise lines have appointed JEBSEN as their GSA (General Sales Agent), 
-              ISR, and Preferred Agent in Malaysia. With over 40+ years of cruise travel experience, we have 
-              become the Largest Cruise Consolidator in Asia with cruise businesses established in prime 
-              cities across Asia and the Middle East.
+              JEBSEN TRAVEL was founded in 1979 by a small group of experienced travel consultants who shared a common goal - unsurpassed customer service. This full-service organization was characterized by the highest standards of professional excellence with particular emphasis on the needs and comfort of travelers.
             </p>
-            
+
             <p className="text-gray-800 mb-8 text-base">
-              Our dedicated team of cruise specialists have thousands of combined cruise nights and 
-              unmatched expertise in the industry. We represent over 40 international cruise lines, 
-              sailing every part of the world, allowing us to offer you the perfect cruise holiday 
-              tailored to your preferences and budget.
+              As a bonded member of The International Air Transport Association (IATA), JEBSEN has access to major airlines worldwide. Premier international cruise lines have appointed JEBSEN as their GSA, ISR, or Preferred Agent in Malaysia. With over 40 years of cruise travel experience, we have become the Largest Cruise Consolidator in Asia with cruise businesses setup in prime cities within Asia and the Middle East.
             </p>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {['Luxury Cruises', 'Family-Friendly Options', 'Adventure Expeditions', 'Romantic Getaways'].map((item, index) => (
-                <motion.div 
+                <motion.div
                   key={index}
                   className="flex items-center"
                   initial={{ opacity: 0, x: -20 }}
@@ -179,7 +173,7 @@ const About = () => {
 
         {/* Mission and Vision */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <motion.div 
+          <motion.div
             className="bg-blue-50 p-8 rounded-xl"
             variants={slideIn('right')}
             initial="hidden"
@@ -188,9 +182,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Mission</h3>
             <p className="text-gray-600 mb-4">
-              To provide exceptional cruise experiences that inspire a love for ocean travel and create 
-              lifelong memories for our customers. We strive to offer the highest level of service, expertise, 
-              and value in every journey we plan.
+              To provide PROFESSIONAL SERVICES BY THE PROFESSIONALS! Over the years, the staff of JEBSEN TRAVEL has developed into proven leaders for all facets of business and leisure travel, achieving an unsurpassed record throughout the industry for professional excellence and unexcelled customer service and satisfaction.
             </p>
             <ul className="space-y-2 text-gray-600">
               <li className="flex items-start">
@@ -207,8 +199,8 @@ const About = () => {
               </li>
             </ul>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="bg-blue-900 text-white p-8 rounded-xl"
             variants={slideIn('left')}
             initial="hidden"
@@ -217,9 +209,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
             <p className="text-blue-100 mb-4">
-              To be the world&apos;s most trusted cruise agency, recognized for our expertise, innovation, and 
-              commitment to creating transformative travel experiences. We aim to make the joy of cruise travel 
-              accessible to all, while promoting responsible tourism.
+              To impart our years of professional experience and expertise into custom packages tailored to your individual travel wants, needs, and fantasies. As our motto states: <strong>WE'LL TAKE YOU ANYWHERE YOU WANT TO GO!</strong>
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}

@@ -39,16 +39,16 @@ const Header = () => {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center cursor-pointer">
-              <motion.div 
+              <motion.div
                 className="flex items-center justify-center h-10 w-10 rounded-full bg-blue-500 mr-3"
                 whileHover={{ rotate: 10, scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <span className="text-white font-bold text-lg">JT</span>
+                <span className="text-white font-bold text-lg">JCT</span>
               </motion.div>
               <div>
-                <h1 className="text-white font-bold text-xl">Jebsen Travel</h1>
-                <p className="text-blue-200 text-xs">Cruising Excellence Since 1979</p>
+                <h1 className="text-white font-bold text-xl">Jebsen Cruise Travel</h1>
+                <p className="text-blue-200 text-xs">Malaysia's Premier Cruise Specialist Since 1979</p>
               </div>
             </div>
           </Link>
@@ -112,7 +112,7 @@ const Header = () => {
       )}
 
       {/* Quick contact bar */}
-      <motion.div 
+      <motion.div
         className={`w-full bg-blue-800 py-1 md:block ${scrolled ? 'hidden' : ''}`}
         initial="hidden"
         animate="show"
@@ -126,8 +126,8 @@ const Header = () => {
             <a href="https://wa.me/1234567890" className="flex items-center hover:text-white">
               <FaWhatsapp className="mr-1" size={12} /> WhatsApp
             </a>
-            <a href="mailto:info@oceanvoyages.com" className="flex items-center hover:text-white">
-              <FaEnvelope className="mr-1" size={12} /> info@oceanvoyages.com
+            <a href="mailto:cruise@jebsen.com.my" className="flex items-center hover:text-white">
+              <FaEnvelope className="mr-1" size={12} /> cruise@jebsen.com.my
             </a>
           </div>
         </div>
@@ -150,14 +150,14 @@ const NavLink = ({ href, children }: { href: string; children: React.ReactNode }
 );
 
 // Mobile Nav Link Component
-const MobileNavLink = ({ 
-  href, 
-  onClick, 
-  children 
-}: { 
-  href: string; 
-  onClick: () => void; 
-  children: React.ReactNode 
+const MobileNavLink = ({
+  href,
+  onClick,
+  children
+}: {
+  href: string;
+  onClick: () => void;
+  children: React.ReactNode
 }) => (
   <Link href={href}>
     <motion.span

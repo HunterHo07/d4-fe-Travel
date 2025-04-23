@@ -30,8 +30,8 @@ const Contact = () => {
     {
       icon: FaPhoneAlt,
       title: 'Phone',
-      content: '+1 (234) 567-890',
-      href: 'tel:+1234567890',
+      content: '+603 2731 0579',
+      href: 'tel:+60327310579',
       bgColor: 'bg-blue-50',
       iconColor: 'text-blue-500'
     },
@@ -75,13 +75,13 @@ const Contact = () => {
               GET IN TOUCH
             </span>
           </motion.div>
-          <motion.h2 
+          <motion.h2
             variants={fadeIn('up', 0.1)}
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
           >
             Contact Jebsen Travel
           </motion.h2>
-          <motion.p 
+          <motion.p
             variants={fadeIn('up', 0.2)}
             className="max-w-2xl mx-auto text-gray-600"
           >
@@ -124,7 +124,9 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-gray-800">Office Location</h3>
               </div>
               <p className="text-gray-600 mb-2">
-                123 Harbor View, Marina Bay, Miami, FL 33132, USA
+                Suite 22.01, Level 22, Menara Citibank<br/>
+                165, Jalan Ampang<br/>
+                50450 Kuala Lumpur, Malaysia
               </p>
               <div className="flex space-x-3 text-sm mb-6">
                 <motion.a
@@ -140,7 +142,7 @@ const Contact = () => {
                   </svg>
                 </motion.a>
               </div>
-              
+
               {/* Map Component */}
               <MapDisplay />
             </div>
@@ -205,7 +207,7 @@ const Contact = () => {
                   />
                 </div>
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="email" className="block text-gray-700 mb-2 font-medium">
                   Email Address*
@@ -218,7 +220,7 @@ const Contact = () => {
                   required
                 />
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="phone" className="block text-gray-700 mb-2 font-medium">
                   Phone Number
@@ -230,7 +232,7 @@ const Contact = () => {
                   placeholder="Your phone number"
                 />
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="subject" className="block text-gray-700 mb-2 font-medium">
                   Subject*
@@ -248,7 +250,7 @@ const Contact = () => {
                   <option value="other">Other</option>
                 </select>
               </div>
-              
+
               <div className="mb-6">
                 <label htmlFor="message" className="block text-gray-700 mb-2 font-medium">
                   Message*
@@ -261,7 +263,7 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-              
+
               <div className="mb-6">
                 <label className="flex items-center">
                   <input
@@ -269,11 +271,11 @@ const Contact = () => {
                     className="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
                   />
                   <span className="ml-2 text-gray-600 text-sm">
-                    I agree to receive promotional emails and updates from OceanVoyages
+                    I agree to receive promotional emails and updates from Jebsen Cruise Travel
                   </span>
                 </label>
               </div>
-              
+
               <motion.button
                 type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold p-3 rounded-lg transition-all"
